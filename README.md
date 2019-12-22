@@ -4,7 +4,7 @@ NEW VERSION WITH LIGHT TANK
 ----------TO FIND THE BOATS TO GET TO THE SHORE--------------
 when you deploy on the aircraft carrier, find to your right one open door with some lights on ground. follow them and you'll reach the carrier harbor.
 
-----------TO ASCEND THE PLANES-------------
+----------TO ASCEND THE PLANES------------
 get close to the right border of the ramp entry hole, and keep walking around it or close to the buttons panel on the right side of the entrance hole until it appears one action.
 
 -----------TO GET TO THE TOP OF THE CARRIER--------------
