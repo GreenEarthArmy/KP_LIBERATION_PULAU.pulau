@@ -1,0 +1,56 @@
+respawn = 3;
+respawndelay = 5;
+respawnButton = 1;
+disabledAI = true;
+
+enableDebugConsole = 1;
+allowFunctionsLog = 0;
+unsafeCVL = 1;
+
+briefingName = "KP_Liberation_WW2_Pulau";
+overviewText = "www.killahpotatoes.de";
+overviewPicture = "WW2.jpg";
+author = "Pixie ,[GREUH] Zbug, [GREUH] McKeewa, [KP] Wyqer,";
+onLoadName = "KP_Liberation_WW2_Pulau";
+onLoadMission = "No army has ever done so much with so little, Douglas MacArthur.";
+loadScreen = "WW2.jpg";
+
+joinUnassigned = 1;
+
+corpseManagerMode = 1;
+corpseLimit = 50;
+corpseRemovalMinTime = 600;
+corpseRemovalMaxTime = 3600;
+wreckManagerMode = 1;
+wreckLimit = 20;
+wreckRemovalMinTime = 1200;
+wreckRemovalMaxTime = 7200;
+minPlayerDistance = 1000;
+
+#include "GREUH\UI\GREUH_interface.hpp"
+#include "ui\liberation_interface.hpp"
+#include "ui\liberation_notifications.hpp"
+#include "ui\mission_params.hpp"
+
+class CfgDebriefing
+{
+	class End1
+	{
+		title =	$STR_SORRY;
+		subtitle = "";
+		description = $STR_COMMANDER_NOT_AUTHORIZED;
+		pictureBackground = "";
+	};
+};
+
+class CfgMusic
+{
+	class ARKANE
+	{
+		// display name
+		name	= "hearth_of_a_dragon";
+
+		// filename, volume, pitch
+		sound[]	= { "Dragonforce_Heart_of_a_Dragon.ogg", db + 10, 1.0 };
+	}
+};
