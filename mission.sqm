@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=35;
+		nextID=36;
 	};
 	class Camera
 	{
-		pos[]={7848.2891,66.127747,5377.5723};
-		dir[]={0.81342536,-0.50342363,-0.29141179};
-		up[]={0.4739368,0.86403543,-0.1697896};
-		aside[]={-0.33726567,-2.7683564e-007,-0.94141626};
+		pos[]={7894.998,33.806725,5402.2358};
+		dir[]={0.26905355,-0.6535359,-0.7074759};
+		up[]={0.23230985,0.75689077,-0.61086005};
+		aside[]={-0.93469799,-2.7008355e-007,-0.35546494};
 	};
 };
 binarizationWanted=0;
@@ -15161,8 +15161,8 @@ class Mission
 		class Item871
 		{
 			dataType="Trigger";
-			position[]={7917.4224,0.054257393,5349.936};
-			angle=1.8401662;
+			position[]={7918.9805,0,5352.3853};
+			angle=1.8401661;
 			class Attributes
 			{
 				name="checkAreaTruck";
@@ -15175,13 +15175,13 @@ class Mission
 			};
 			id=1378;
 			type="EmptyDetectorAreaR50";
-			atlOffset=14.763245;
+			atlOffset=14.729384;
 		};
 		class Item872
 		{
 			dataType="Trigger";
 			position[]={7922.1626,11.689629,5365.6406};
-			angle=1.8401662;
+			angle=1.8401661;
 			class Attributes
 			{
 				name="checkAreaTank";
@@ -15707,8 +15707,8 @@ class Mission
 			class Item14
 			{
 				linkID=14;
-				item0=1382;
-				item1=1379;
+				item0=1379;
+				item1=1383;
 				class CustomData
 				{
 					type="TriggerOwner";
