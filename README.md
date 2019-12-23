@@ -40,3 +40,13 @@ now at the mission parameters Thanks to KP team.
 Credits for the two respawn boats with truck and tank at carrier
 is on this page:
 https://forums.bohemia.net/forums/topic/193521-vehicle-respawn-module-variable-name/
+
+
+TO PLAY MUSIC:
+playMusic X ;
+
+X= the name of the music
+
+musics atm(classname)
+
+Hearth_of_a_dragon
