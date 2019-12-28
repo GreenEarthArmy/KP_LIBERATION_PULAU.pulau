@@ -12,8 +12,8 @@ Optional Mods:
 /* - Support classnames.
 Each of these should be unique, the same classnames for different purposes may cause various unpredictable issues with player actions. Or not, just don't try!	*/
 FOB_typename = "Land_GeneralServiceTent";									// This is the main FOB HQ building. 																									Default is "Land_Cargo_HQ_V1_F".
-FOB_box_typename = "LIB_US_GMC_Tent";							// This is the FOB as a container. 																										Default is "B_Slingload_01_Cargo_F".
-FOB_truck_typename = "LIB_US_GMC_Ammo";								// This is the FOB as a vehicle.																										Default is "B_Truck_01_box_F".
+FOB_box_typename = "Misc_Cargo1B_military";							// This is the FOB as a container. 																										Default is "B_Slingload_01_Cargo_F".
+FOB_truck_typename = "LIB_US_NAC_GMC_Tent";								// This is the FOB as a vehicle.																										Default is "B_Truck_01_box_F".
 Arsenal_typename = "B_supplyCrate_F";									// This is the virtual arsenal as portable supply crates.  																				Default is "B_supplyCrate_F".
 Respawn_truck_typename = "LIB_US_GMC_Ammo";						// This is the mobile respawn (and medical) truck. 																						Default is "B_Truck_01_medical_F".
 huron_typename = "fow_v_lvta2_usa_p";						// This is Spartan 01, a multipurpose mobile respawn as a helicopter. 																	Default is "B_Heli_Transport_03_unarmed_F".

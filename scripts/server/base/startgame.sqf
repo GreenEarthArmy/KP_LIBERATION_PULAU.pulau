@@ -27,9 +27,13 @@ if (count GRLIB_all_fobs == 0) then {
         private _fobbox = objNull;
 
         while {count GRLIB_all_fobs == 0} do {
+            _barge = KP_liberation_boat1_classname createVehicle (getposATL barge);
+            _barge setDir getdIR barge;
+            _barge setposATL (getposATL barge);
             _fobbox = ([FOB_box_typename, FOB_truck_typename] select KP_liberation_fob_vehicle) createVehicle (getposATL base_boxspawn);
             _fobbox setdir getDir base_boxspawn;
             _fobbox setposATL (getposATL base_boxspawn);
+            _barge setVehicleCargo _fobbox;
 
             clearWeaponCargoGlobal _fobbox;
             clearMagazineCargoGlobal _fobbox;
@@ -46,11 +50,13 @@ if (count GRLIB_all_fobs == 0) then {
 
             waitUntil {
                 sleep 1;
-                !(alive _fobbox) || ((count GRLIB_all_fobs) > 0) || (((getPosASL _fobbox) select 2) < 0)
+                _bardist = _barge distance barge;
+                !(alive _fobbox) || !(alive _barge) || !(_bardist < 120) || ((count GRLIB_all_fobs) > 0) || (((getPosASL _fobbox) select 2) < 0)
             };
             sleep 15;
         };
         deleteVehicle _fobbox;
+        deleteVehicle _barge;
     };
 
     waitUntil {sleep 5; (count GRLIB_all_fobs) > 0};
